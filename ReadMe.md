@@ -12,6 +12,8 @@
 
 ## Project Overview
 
+This project includes files that encompass tasks and mini-projects implemented using Node.js and Express.js. It utilizes various npm dependencies to enhance functionality. 
+
 [(Back to top)](#table-of-contents)
 
 
