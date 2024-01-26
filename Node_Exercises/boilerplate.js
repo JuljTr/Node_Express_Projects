@@ -6,7 +6,7 @@ fs.mkdir('Button', { recursive: true }, (err) => {
     if (err) throw err;
 })
 
-// console.log('I come after MKDIR')
+console.log('I come after MKDIR')
 
 try {
     fs.mkdirSync(folderName);
