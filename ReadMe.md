@@ -29,8 +29,8 @@
   - [The Web Developer Bootcamp 2024](https://www.udemy.com/course/the-web-developer-bootcamp/)
   
 - **NPM_Dependencies**
-  - [give-me-a-joke]()
-  - []()
+  - [give-me-a-joke](https://www.npmjs.com/package/give-me-a-joke)
+  - [colors](https://www.npmjs.com/package/colors)
   - []()
   - []()
   - []()
