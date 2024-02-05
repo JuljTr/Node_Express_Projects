@@ -15,7 +15,7 @@
 [(Back to top)](#table-of-contents)
 
 
-In Express Servers task the Express NPM package was installed 
+The Express Servers module involved the installation of the Express npm package. Throughout this module, numerous tasks focused on utilizing Express framework methods to construct a fully functional server.
 
 ## Tools Used
 
