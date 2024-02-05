@@ -13,11 +13,24 @@ app.get('/r/:subreddit', (req, res) => {
     const { subreddit } = req.params;
     res.send(`<h1> Browsing the: ${subreddit} </h1>`);
 })
+app.get('/r/:subreddit/:postId', (req, res) => {
+    console.log(req.params);
+    const { subreddit, postId } = req.params;
+    res.send(`<h1> Viewing Post Id: ${postId} on ${subreddit} subreddit</h1>`);
+})
 app.get('/info', (req, res) => {
     res.send("INFORMATION PAGE REQUEST");
 })
 app.get('/contact', (req, res) => {
     res.send("CONTACT PAGE REQUEST");
+})
+app.get('/search', (req, res)=> {
+    console.log(req.query);
+    const { q } = req.query;
+    if(!q) {
+        res.send("NOTHING FOUND IF NOTHING SEARCHED")
+    }
+    res.send(`<h1>Search results for ${q}</h1>`);
 })
 app.get('*', (req, res) => {
     res.send("ERROR PATH NOT KNOW");
