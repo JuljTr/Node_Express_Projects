@@ -17,7 +17,9 @@ This project includes files that encompass tasks and mini-projects implemented u
 [(Back to top)](#table-of-contents)
 
 
-The Express Servers module involved the installation of the Express npm package. Throughout this module, numerous tasks focused on utilizing Express framework methods to construct a fully functional server.
+The Express Servers module involved the installation of the Express npm package. Throughout this module, numerous tasks focused on utilizing Express framework methods to construct a fully functional server. 
+
+During this module, a subreddit demo was developed using EJS. The process included setting up a new server, templating HTML, and practicing the fundamental EJS syntax.
 
 ## Tools Used
 
